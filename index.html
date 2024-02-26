@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Hexa</title>
+</head>
+<body>
+  <div class="logo">
+<img src="img/logo.png" alt="logo">
+  </div>
+
+  <h1>Drushtvena Mreza</h1>
+
+  <div class="main-wrapper">
+    <form id="loginForm">
+      <h2>Login</h2>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="login-email" placeholder="RobertBlazevski@email.com">
+      </div>
+
+      <div>
+        <label for="Password">Password</label>
+        <input type="password" name="Password" id="login-lozinka" placeholder="***">
+      </div>
+    
+      <div>
+        <button>Logiraj se</button>
+      </div>
+    
+    </form>
+  </div>
+
+  <div class="no-acc-register">
+<p>Nemas account?</p>
+<button id="registracija">Registriraj Se!</button>
+  </div>
+
+  <div class="custom-modal">
+    <button id="closeModal">X</button>
+<form id="registrationForm">
+  <h2>Registracija Na Korisnik</h2>
+
+  <div>
+    <label for="korisnicko-ime">Korisnicko Ime</label>
+    <input type="text" name="korisnicko-ime" id="korisnicko-ime" placeholder="RobertBlazevski">
+  </div>
+
+  <div>
+    <label for="register_email">Email</label>
+    <input type="text" name="register_email" id="register_email" placeholder="RobertBlazevski@email.com">
+  </div>
+
+  <div>
+    <label for="register_lozinka">Password</label>
+    <input type="password" name="register_lozinka" id="register_lozinka" placeholder="***">
+  </div>
+
+  <div>
+    <label for="ponovi-lozinku">Povtori Password</label>
+    <input type="password" name="ponovi-lozinku" id="ponovi-lozinku" placeholder="***">
+  </div>
+  <button>Registriraj Se!</button>
+
+</form>
+  </div>
+<script src="/js/Validator.js"></script>
+<script src="/js/Session.js"></script>
+<script src="/js/User.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>
